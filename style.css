@@ -317,6 +317,19 @@ section {
   margin: auto 0;
 }
 
+/* Make profile picture circular */
+.section__pic-container {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.section__pic-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
